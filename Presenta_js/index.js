@@ -32,8 +32,8 @@ var myPresentation = new Presenta('#app',
       {
         blocks: [
           {
-            type: 'youtube',
-            url: 'https://www.youtube.com/watch?v=JtnPpxe8K7c'
+            type: 'embed',
+            url: 'https://muzaffarshaikh87.github.io/Video/index.html'
           }
         ],
       },
