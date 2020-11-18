@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+    <link href="https://vjs.zencdn.net/5.16.0/video-js.min.css" rel="stylesheet"/>
+    <script src="https://vjs.zencdn.net/5.16.0/video.min.js"></script>
+    <script src="https://rawgit.com/atlance01/vrapp-ionic/master/www/js/lib/videojs-playlist.js"></script>
+
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <video class="video-js vjs-default-skin" controls width="640px" height="360px"></video>
+<button class="previous">Previous</button>
+<button class="next">Next</button>
+<button class="jump">Play Third</button>
+<div class="autoadvance-group">
+  <h4>Auto-advance (in seconds)</h4>
+  <label><input type="radio" name="autoadvance" value="null" checked> No auto-advance</label>
+  <label><input type="radio" name="autoadvance" value="0"> 0</label>
+  <label><input type="radio" name="autoadvance" value="5"> 5</label>
+  <label><input type="radio" name="autoadvance" value="10"> 10</label>
+  <label><input type="radio" name="autoadvance" value="30"> 30</label>
+</div>
+</body>
+</html>
